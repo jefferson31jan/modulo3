@@ -1,0 +1,15 @@
+<h1>Seja Bem-vindo!</h1>
+ 
+<p>Jefferson Silva </p>
+
+<%= Date.today %>
+<br>
+<br>
+<%= Date.today.strftime("%d/%m/%Y") %> <br>usando Date.today.strftime("%d/%m/%Y")
+<br>
+<br>
+<%= data_br(Date.today)%> <br>usando a Helper data_br
+<br>
+<ul> 
+    <li><%= link_to "Coin", coins_path, class: :btn %>  </li>  
+</ul>
